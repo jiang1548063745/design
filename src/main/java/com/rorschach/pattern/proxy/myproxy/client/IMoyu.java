@@ -6,7 +6,7 @@ package com.rorschach.pattern.proxy.myproxy.client;
  */
 public interface IMoyu {
 
-    void moYu();
+    void moYu(String name);
 
     void huaShui();
 }

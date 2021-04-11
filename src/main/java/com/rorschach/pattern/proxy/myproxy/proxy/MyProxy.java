@@ -57,7 +57,7 @@ public class MyProxy {
             // 5.字节码重组返回新的代理对象
             boolean delFlag = f.delete();
             if (delFlag) {
-                System.out.println("字节码已删除");
+                System.out.println("tip:: 字节码已删除");
             }
             return constructor.newInstance(h);
         } catch (Exception e) {

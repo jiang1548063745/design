@@ -16,8 +16,8 @@ public class InetWorker implements IWorker, IMoyu{
     }
 
     @Override
-    public void moYu() {
-        System.out.println("moyu ...");
+    public void moYu(String name) {
+        System.out.println(name + "在moyu ...");
     }
 
     @Override

@@ -15,7 +15,7 @@ public class Test {
         worker.plan();
 
         IMoyu moyu = (IMoyu)worker;
-        moyu.moYu();
+        moyu.moYu("小咸鱼");
 
         moyu.huaShui();
     }
